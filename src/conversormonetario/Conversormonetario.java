@@ -15,7 +15,7 @@ import java.io.FileReader;
 import java.util.Map;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
+//import org.json.simple.parser.JSONParser;
 
 
 public class Conversormonetario {
@@ -78,7 +78,7 @@ public class Conversormonetario {
            res = "COP/USD/";          
         }
   String url2 = API_URL + res + cantidad;
-  JsonParser parser = new JsonParser();
+  //JsonParser parser = new JsonParser();
                     try {
                       //String pokemon="pikachu";
                       URL url=new URL(url2);
